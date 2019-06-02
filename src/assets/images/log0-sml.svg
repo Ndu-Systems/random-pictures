@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="52" viewBox="0 0 118 52">
+  <g id="log0-sml" transform="translate(-1576 -601)">
+    <text id="RP" transform="translate(1646 640)" fill="#a87b51" font-size="37" font-family="Poppins-Light, Poppins" font-weight="300" letter-spacing="0.154em"><tspan x="0" y="0">RP</tspan></text>
+    <g id="Group_3" data-name="Group 3" transform="translate(1186 364)">
+      <path id="Path_1" data-name="Path 1" d="M3803.734,330.116l2.909,17.332a71.911,71.911,0,0,1,19.635-3.272,69.121,69.121,0,0,1,19.393,3.272l5.211-17.817s-5.969,7-11.756,6.181-12.242-8.969-12.242-8.969-5.121,8.03-11.514,8.969S3803.734,330.116,3803.734,330.116Z" transform="translate(-3407.059 -73.801)" fill="none" stroke="#a87b51" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M3827.008,510.8s9.545-4.848,19.514-4.848,20.362,4.848,20.362,4.848" transform="translate(-3427.545 -231.455)" fill="none" stroke="#a87b51" stroke-linecap="round" stroke-width="2"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(390 246.474)" fill="none" stroke="#a87b51" stroke-width="2">
+        <circle cx="5.031" cy="5.031" r="5.031" stroke="none"/>
+        <circle cx="5.031" cy="5.031" r="4.031" fill="none"/>
+      </g>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(414.555 243)" fill="none" stroke="#a87b51" stroke-width="2">
+        <circle cx="5.031" cy="5.031" r="5.031" stroke="none"/>
+        <circle cx="5.031" cy="5.031" r="4.031" fill="none"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(439.828 246.474)" fill="none" stroke="#a87b51" stroke-width="2">
+        <circle cx="5.031" cy="5.031" r="5.031" stroke="none"/>
+        <circle cx="5.031" cy="5.031" r="4.031" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

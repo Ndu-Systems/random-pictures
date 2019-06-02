@@ -1,0 +1,35 @@
+.main{
+    padding: 3%;
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        grid-gap: 3rem;
+        @media only screen and (max-width: 600px) {
+            grid-template-columns: 100%;
+          }
+        .card{
+            background: #1D1C1A;
+            .image{
+                img{
+                    height: 15rem;
+                }
+            }
+            .card-body{
+                padding: 2rem;
+                h1{
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 1rem;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 1rem;
+
+
+                }
+            }
+        }
+    }
+}

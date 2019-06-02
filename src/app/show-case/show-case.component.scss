@@ -1,0 +1,27 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    div{
+        background: linear-gradient(rgba(0, 0, 0, 0.89),rgba(92, 68, 45, 0.849)), url(../../assets/images/downloads/wed.jpg);
+        background-size: cover;
+        padding: 15rem;
+
+        h1{
+            padding: 3% 0;
+            border-bottom: 5px solid #C7AB90;
+            border-top: 5px solid #C7AB90;
+            text-align: center;
+            font-weight: 200;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                border-bottom: 5px solid rgb(117, 89, 63);
+                border-top: 5px solid rgb(117, 89, 63);
+            }
+        }
+    }
+    .music{
+        background: linear-gradient(rgba(0, 0, 0, 0.89),rgba(92, 68, 45, 0.849)), url(../../assets/images/downloads/music.jpeg);
+
+    }
+}

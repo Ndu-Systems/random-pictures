@@ -1,0 +1,36 @@
+.nav {
+  background: #252525;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 2rem;
+  padding-top: 3rem;
+
+  .logo-section {
+    img {
+      width: 70%;
+    }
+  }
+
+  .nav-section {
+      text-align: right;
+    ul {
+      list-style: none;
+
+      li {
+        display: inline;
+        padding: .2rem 3rem;
+        margin: 0;
+        a{
+          color: #F7F3EF;
+        }
+
+        a.active{
+          font-weight: 700;
+          border-bottom: .2rem solid #F7F3EF;
+        }
+
+      }
+    }
+
+  }
+}

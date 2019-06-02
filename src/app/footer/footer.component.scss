@@ -1,0 +1,42 @@
+.main {
+  background: rgb(52, 73, 94);
+  background: linear-gradient(180deg, rgba(52, 73, 94, 1) 0%, rgba(16, 19, 22, 1) 100%);
+  background: #1D1C1A;
+  text-align: center;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+
+  .logo {
+    img {
+      width: 3rem;
+      position: relative;
+      top: .4rem;
+    }
+    h1 {
+      display: inline;
+      font-weight: 200;
+      font-size: 1rem;
+      padding-left: .5rem;
+    }
+  }
+
+  .links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .soc {
+      img {
+        width:1rem;
+        // display: inline;
+      }
+
+      h1 {
+        display: inline;
+        font-weight: 200;
+        font-size: 1rem;
+      }
+    }
+  }
+}

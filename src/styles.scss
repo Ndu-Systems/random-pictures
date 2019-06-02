@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import "./assets/keyframes";
+*{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #F7F3EF;
+
+
+}
+body, html{
+    background: #000;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+h1{
+ font-size: 2.5rem;;
+}
+a{
+    text-decoration: none;
+}
+
+
+.line{
+    display: block;
+    width: 7%;
+    background: #5C442D;
+    height: .4rem;
+    margin: 0 auto;
+  }
+
+  .btn-std{
+    background:none;
+    border: .1rem solid #F7F3EF;
+    padding: 1% 5%;
+  
+  }
+
+  .a-c{
+      text-align: center;
+  }
+
+
+//   BANER BANER 
+
+
+.banner {
+    background-image: linear-gradient(rgba(87, 87, 4, 0.582), rgba(51, 51, 6, 0.534)), url(./assets/images/downloads/bg-cam.PNG);
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+    padding: 3% 0;
+    box-sizing: border-box;
+  
+    .intro-box {
+      width: 100%;
+      padding: 2%;
+      box-sizing: border-box;
+      width: 60%;
+      background: #5c442d57;
+      @media only screen and (max-width: 600px) {
+       width: 80%;
+       margin-top: 3rem;
+       }
+  
+  
+      h1 {
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 200;
+        animation: slideFromLeft 1s ease-out .5s;
+        animation-fill-mode: backwards;
+      }
+  
+    }
+  }
+
+  ::-webkit-scrollbar { 
+  
+    display: none;
+    }
